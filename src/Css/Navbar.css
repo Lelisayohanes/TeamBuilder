@@ -2,6 +2,7 @@
 .navbar-container{
   width: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
 }
 .navbody {
     display: flex;
@@ -13,13 +14,14 @@
   .logo {
     flex: 1;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
   }
-  img{
+  .logo-image{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0d1335;
+    background-color: #FFFFFF;
     height: 70%;
   }
   .Navbar {

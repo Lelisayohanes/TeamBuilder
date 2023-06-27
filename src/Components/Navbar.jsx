@@ -4,7 +4,7 @@ const Navbar = () => (
   <div className="navbar-container">
     <div className="navbody">
       <div className="logo">
-        <img  src="../../src/assets/image/logo 1.png" alt="ww" />
+        <img className="logo-image" src="../../src/assets/image/logo 1.png" alt="ww" />
       </div>
       <div className="Navbar">
         <ul className="lists">

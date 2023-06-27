@@ -19,9 +19,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="div2">
+        <div className="hero-image">
           <img
-            className="image"
+            className="image1"
             src="../../src/assets/image/Rectangle26.png"
             alt=""
           />
