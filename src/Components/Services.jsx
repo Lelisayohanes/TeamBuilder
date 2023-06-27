@@ -1,30 +1,60 @@
-import '../Css/Services.css'
+import "../Css/Services.css";
 export default function Services() {
   return (
-    <div className='columns'>
-      <div className='column'>
-        <div className='nested-column'>
-
+    <div className="service-container">
+      
+      <div className="service">
+        <div className="service-image">
+          <img
+            className="image"
+            src="../../src/assets/image/cube 1.png"
+            alt=""
+          />
         </div>
-        <div className='nested-column'>
-            <div className='nc-header'>
-
-            </div>
-            <div className='nc-content'>
-
-            </div>
+        <div className="service-content">
+          <div className="service-header">Architect your Solution</div>
+          <div className="service-paragraph">
+            Our team in on your operational, technological, and strategic
+            challenges through an in-depth understanding of your business. We
+            design a strategic roadmap to guide your result-oriented goals.
+          </div>
         </div>
       </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntu
-        r odit fuga placeat quaerat aut tenetur non, ea facere quas officiis quod 
-        laboriosam numquam libero aliquam vel ut temporibus labore similique!
+      
+      <div className="service">
+        <div className="service-image">
+          <img
+            className="image"
+            src="../../src/assets/image/cube 1.png"
+            alt=""
+          />
+        </div>
+        <div className="service-content">
+          <div className="service-header">Architect your Solution</div>
+          <div className="service-paragraph">
+          We promptly put together your nearshore engineering dream team to fulfill your specific requirements. We create
+          the most elegant solution for your difficulties by combining our deep tech expertise, Top 1% Tech Talent, and
+          industry-specific experience.
+          </div>
+        </div>
       </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntu
-        r odit fuga placeat quaerat aut tenetur non, ea facere quas officiis quod 
-        laboriosam numquam libero aliquam vel ut temporibus labore similique!
+      <div className="service">
+        <div className="service-image">
+          <img
+            className="image"
+            src="../../src/assets/image/cube 1.png"
+            alt=""
+          />
+        </div>
+        <div className="service-content">
+          <div className="service-header">Architect your Solution</div>
+          <div className="service-paragraph">
+          Bolster by our team, your digital transformation swiftly gains speed and evolves into a digital acceleration. 
+          This process places the foundation for a more efficient and strong business that can meet demands at scale.
+          </div>
+        </div>
       </div>
+      
     </div>
-  )
+  );
 }
