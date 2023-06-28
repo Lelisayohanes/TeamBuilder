@@ -30,7 +30,7 @@ export default function Services() {
           />
         </div>
         <div className="service-content">
-          <div className="service-header">Architect your Solution</div>
+          <div className="service-header">Engineer your Solution</div>
           <div className="service-paragraph">
           We promptly put together your nearshore engineering dream team to fulfill your specific requirements. We create
           the most elegant solution for your difficulties by combining our deep tech expertise, Top 1% Tech Talent, and
@@ -47,7 +47,7 @@ export default function Services() {
           />
         </div>
         <div className="service-content">
-          <div className="service-header">Architect your Solution</div>
+          <div className="service-header">ReEngineer your Business Process</div>
           <div className="service-paragraph">
           Bolster by our team, your digital transformation swiftly gains speed and evolves into a digital acceleration. 
           This process places the foundation for a more efficient and strong business that can meet demands at scale.

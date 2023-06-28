@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Home from './pages/Home'
 import Services from './Components/Services'
 import HowToStart from './Components/HowToStart'
+import Expertice from './Components/Expertice'
 function App() {
 
   return (
@@ -11,7 +12,8 @@ function App() {
         <Navbar/>
         <Home/>
         <Services/>
-        <HowToStart/>
+        <HowToStart/> 
+        <Expertice/>
     </div>
 
     </>
