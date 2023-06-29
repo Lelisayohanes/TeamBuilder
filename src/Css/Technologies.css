@@ -1,7 +1,7 @@
 .specialized-tech-container {
     margin: 3% 10%;
     background-color: #FFFFFF;
-    
+    position: relative;
   }
   .tech-spec-header{
     display: flex;

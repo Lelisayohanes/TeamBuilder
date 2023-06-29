@@ -1,13 +1,16 @@
 .spec-container{
+  position: relative;
     display: flex;
     flex-direction: column;
     background-color: #F9F9F9;
     background-size: cover;
     background-position: center;
+    height: auto;
     min-height: 100vh;
   }
 .specialized-container {
     padding: 4% 10%;
+    flex-grow: 1;
   }
   .specialized-h2 {
     color: #001D84;
@@ -55,7 +58,7 @@
     display: flex;
     /* width: 200px; */
     flex-direction: column;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
   }
   
   .tech-lists {
@@ -66,6 +69,7 @@
     height: 93px;
     flex-shrink: 0;
     flex-direction: row;
+    flex-grow: 1;
   }
   
   .specialized-tech {
